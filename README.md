@@ -27,7 +27,7 @@ Este proyecto es una demostración práctica del uso de **React** para la creaci
 
 1.  Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/react-cv.git
+    git clone https://github.com/cuackzoide/react-cv.git
     ```
 2.  Instala las dependencias:
     ```bash
@@ -39,7 +39,7 @@ Este proyecto es una demostración práctica del uso de **React** para la creaci
     ```bash
     npm run dev
     ```
-5. Abre el navegador y ve a `http://localhost:5173` para ver tu cv interactivo.
+5. Abre el navegador y ve a `http://localhost:5173` (premeditado por vite) para ver tu cv interactivo.
 
 ## 📄 Exportación a PDF
 
