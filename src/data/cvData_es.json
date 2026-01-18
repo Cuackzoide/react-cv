@@ -1,0 +1,491 @@
+{
+  "profile": {
+    "name": "Oliver Leonardo Barra Acevedo",
+    "title": "Analista de Datos | Desarrollador web Junior"
+  },
+  "contact": {
+    "main": [
+      {
+        "platform": "Email",
+        "value": "Barraoliver94@gmail.com",
+        "url": "mailto:Barraoliver94@gmail.com",
+        "icon": "mail"
+      },
+      {
+        "platform": "Teléfono",
+        "value": "+56 9 5170 6602",
+        "url": "tel:+56951706602",
+        "icon": "phone"
+      },
+      {
+        "platform": "Ubicación",
+        "value": "Hualpén, Biobío, Chile",
+        "url": "https://www.google.com/maps/search/Hualpén+Biobío+Chile",
+        "icon": "map-pin"
+      }
+    ],
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "username": "oliver-barra",
+        "url": "https://www.linkedin.com/in/oliver-barra-a55a8a29a/",
+        "icon": "linkedin"
+      },
+      {
+        "platform": "GitHub",
+        "username": "Cuackzoide",
+        "url": "https://github.com/Cuackzoide",
+        "icon": "github"
+      }
+    ]
+  },
+  "professional_profile": {
+    "headline": "Analista de Datos | Desarrollador Full-Stack",
+    "roles": {
+      "data_analyst": {
+        "label": "Analista de Datos",
+        "summary": "Especialista en optimización de procesos y toma de decisiones basada en métricas.",
+        "core_focus": [
+          "Automatización de flujos de trabajo",
+          "Análisis de KPIs y reporting ejecutivo",
+          "Gestión de bases de datos relacionales"
+        ],
+        "preferences": {
+          "modality": "Remoto / Híbrido",
+          "target_roles": [
+            "Data Analyst",
+            "Operations Analyst",
+            "Data Reporting Analyst",
+            "Automation Specialist",
+            "Business Intelligence Analyst"
+          ]
+        }
+      },
+      "web_developer": {
+        "label": "Desarrollador Web Fullstack",
+        "summary": "Creador de soluciones digitales modernas con foco en la escalabilidad y UX.",
+        "core_focus": [
+          "Diseño de interfaces responsivas y accesibles",
+          "Desarrollo de SPAs con React",
+          "Construcción de APIs RESTful con Node.js"
+        ],
+        "preferences": {
+          "modality": "Remoto / Híbrido",
+          "target_roles": [
+            "Junior Web Developer",
+            "Fullstack JavaScript Developer",
+            "React Developer",
+            "Node.js Developer",
+            "Frontend Engineer",
+            "Software Engineer"
+          ]
+        }
+      }
+    }
+  },
+  "projects": [
+    {
+      "name": "Gourmet Go (Consumo de API)",
+      "slug": "gourmet-go",
+      "type": "Application",
+      "category": [
+        "web_developer",
+        "data_analyst"
+      ],
+      "stack": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap 5",
+        "TheMealDB API",
+        "Fetch API"
+      ],
+      "concepts": [
+        "Manipulación del DOM",
+        "Async/Await",
+        "Filtrado Dinámico",
+        "Consumo de APIs",
+        "Programación Asíncrona"
+      ],
+      "description": "Aplicación web funcional que transforma una maqueta estática en una plataforma de búsqueda de recetas en tiempo real mediante consumo de APIs externas.",
+      "highlights": [
+        "Integración asíncrona con la API externa TheMealDB.",
+        "Gestión de estados de búsqueda y renderizado dinámico de resultados mediante componentes de Bootstrap.",
+        "Implementación de UX fluida mediante manejo avanzado de promesas y filtrado dinámico."
+      ],
+      "github": "https://github.com/Cuackzoide/EF_M4-API_gourmet_go",
+      "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/"
+    },
+    {
+      "name": "Mastermind Digital",
+      "slug": "mastermind",
+      "type": "Game / Logic",
+      "category": [
+        "web_developer"
+      ],
+      "stack": [
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "concepts": [
+        "Migración de Algoritmos",
+        "Lógica de Juego",
+        "Manipulación del DOM",
+        "Comparación de Arreglos",
+        "Transferencia de Lógica Frontend-Backend"
+      ],
+      "description": "Digitalización del clásico juego de mesa, migrando una lógica central de backend (Python) a una interfaz web interactiva.",
+      "highlights": [
+        "Migración exitosa de algoritmos de comparación de Python a JavaScript.",
+        "Desarrollo de una interfaz de usuario orientada a la lógica de resolución de problemas.",
+        "Manejo avanzado del DOM para feedback visual inmediato."
+      ],
+      "github": "https://github.com/Cuackzoide/Mastermind",
+      "demo": "https://cuackzoide.github.io/Mastermind"
+    },
+    {
+      "name": "Conecta-4",
+      "slug": "conecta-4",
+      "type": "Game / Logic",
+      "category": [
+        "web_developer"
+      ],
+      "stack": [
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "concepts": [
+        "Algoritmos de Condición de Victoria",
+        "Lógica de Matrices (Arreglos 2D)",
+        "Diseño Responsivo",
+        "Manejo de Eventos",
+        "Gestión de Estado"
+      ],
+      "description": "Juego de estrategia desarrollado con tecnologías web para demostrar lógica de programación.",
+      "highlights": [
+        "Algoritmos de detección de victoria en ejes horizontales, verticales y diagonales.",
+        "Diseño responsivo para jugabilidad multiplataforma.",
+        "Estructuración de código limpia basada en funciones puras."
+      ],
+      "github": "https://github.com/Cuackzoide/Conecta-4",
+      "demo": "https://cuackzoide.github.io/Conecta-4/"
+    },
+    {
+      "name": "Integración Express & PostgreSQL",
+      "slug": "express-pg",
+      "type": "Backend",
+      "category": [
+        "web_developer",
+        "data_analyst"
+      ],
+      "stack": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "dotenv"
+      ],
+      "concepts": [
+        "Pool de Conexiones a Base de Datos",
+        "Gestión de Variables de Entorno",
+        "Arquitectura Backend",
+        "Consultas SQL",
+        "Manejo de Errores"
+      ],
+      "description": "Desarrollo de una arquitectura de servidor robusta para la gestión y persistencia de datos relacionales.",
+      "highlights": [
+        "Configuración de conexión segura a PostgreSQL mediante variables de entorno.",
+        "Implementación de operaciones CRUD con manejo de errores asíncronos.",
+        "Estructuración de rutas y controladores para asegurar la escalabilidad del backend."
+      ],
+      "github": "https://github.com/Cuackzoide/Express-pg",
+      "demo": "https://express-pg.onrender.com/api/cursos"
+    },
+    {
+      "name": "Landing Page Profesional",
+      "slug": "landing-page",
+      "type": "Frontend",
+      "category": [
+        "web_developer"
+      ],
+      "stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap 5"
+      ],
+      "concepts": [
+        "Diseño Web Responsivo",
+        "HTML Semántico",
+        "Componentes UI/UX",
+        "Desarrollo Mobile-First",
+        "Fundamentos de SEO"
+      ],
+      "description": "Creación de una interfaz web profesional y totalmente adaptativa centrada en la conversión y la experiencia de usuario.",
+      "highlights": [
+        "Integración de componentes de Bootstrap para acelerar el desarrollo y garantizar la compatibilidad.",
+        "Optimización de recursos visuales y uso de HTML semántico para mejorar el SEO técnico.",
+        "Implementación de interactividad personalizada mediante JavaScript nativo."
+      ],
+      "github": "https://github.com/Cuackzoide/EF_M2-Landing_page",
+      "demo": "https://cuackzoide.github.io/EF_M2-Landing_page/"
+    },
+    {
+      "name": "QuickOrder (Full Stack)",
+      "slug": "quickorder",
+      "type": "Application",
+      "category": [
+        "web_developer"
+      ],
+      "stack": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "concepts": [
+        "Integración Full Stack",
+        "APIs RESTful",
+        "Bases de Datos Relacionales",
+        "Desarrollo Colaborativo (Git)",
+        "Operaciones CRUD"
+      ],
+      "description": "Colaboración en sistema de gestión de pedidos, integrando frontend y backend.",
+      "highlights": [
+        "Implementación de endpoints para gestión de datos en tiempo real.",
+        "Persistencia de datos utilizando bases de datos relacionales.",
+        "Arquitectura de carpetas escalable para desarrollo colaborativo."
+      ],
+      "github": "https://github.com/joaquin-ossandon/quickorder-js-fullstack",
+      "demo": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "ASISTENCIAS GEA CHILE S.A.",
+      "main_role": "Analista de Datos",
+      "specialties": [
+        "Automatización de Datos",
+        "Gestión en Tiempo Real",
+        "Reporte de KPIs",
+        "Business Intelligence"
+      ],
+      "period": {
+        "start": "2024-03",
+        "end": "2024-11",
+        "current": false
+      },
+      "highlights": [
+        "Administración y gestión de bases de datos relacionales para la toma de decisiones.",
+        "Optimización de tiempos mediante la creación de Macros en Excel para informes automatizados.",
+        "Diseño de Dashboards interactivos para el seguimiento de métricas críticas de rendimiento."
+      ]
+    },
+    {
+      "company": "ASISTENCIAS GEA CHILE S.A.",
+      "main_role": "Ejecutivo de Fidelización y Retención",
+      "specialties": [
+        "Gestión de CRM",
+        "Automatización de Procesos",
+        "Resolución de Conflictos",
+        "Optimización de Entrada de Datos"
+      ],
+      "period": {
+        "start": "2024-01",
+        "end": "2024-03",
+        "current": false
+      },
+      "highlights": [
+        "Digitalización y automatización de procesos de cálculo de descuentos mediante Excel.",
+        "Gestión avanzada de incidencias críticas utilizando el CRM propio de la compañía.",
+        "Promoción acelerada a Analista de Datos por mérito en la optimización de flujos de trabajo."
+      ]
+    },
+    {
+      "company": "KOE FAST & EASY CAPACITACION",
+      "main_role": "Ejecutivo de Televentas",
+      "specialties": [
+        "Embudo de Ventas",
+        "Uso de CRM",
+        "Llamadas Salientes",
+        "Registros Digitales"
+      ],
+      "period": {
+        "start": "2022-10",
+        "end": "2022-12",
+        "current": false
+      },
+      "highlights": [
+        "Gestión de ciclo de ventas completo utilizando herramientas digitales de captación.",
+        "Uso intensivo de discadores automáticos y CRM para el registro y trazabilidad de clientes.",
+        "Manejo de métricas de conversión y cumplimiento de metas comerciales."
+      ]
+    },
+    {
+      "company": "SOCIEDAD MAILINKO Y COMPAÑÍA LIMITADA",
+      "main_role": "Analista Administrativo Contable",
+      "specialties": [
+        "Auditoría",
+        "Trazabilidad de Datos",
+        "Lógica de Inventarios",
+        "Reportes Financieros"
+      ],
+      "period": {
+        "start": "2022-10",
+        "end": "2022-12",
+        "current": false
+      },
+      "highlights": [
+        "Aseguramiento de la trazabilidad de datos en transacciones de facturación y ventas.",
+        "Control lógico de inventarios y soporte técnico para procesos de auditoría externa.",
+        "Elaboración de balances basados en estructuras de datos contables."
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Excel",
+      "Macros",
+      "SQL",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ES6+",
+      "React",
+      "Node.js",
+      "Git",
+      "GitHub",
+      "Python",
+      "Pandas"
+    ],
+    "soft": [
+      "Proactivo",
+      "Pensamiento lógico",
+      "Basado en datos",
+      "Orientado a resultados",
+      "Adaptable",
+      "Pensamiento Crítico",
+      "Comunicación efectiva",
+      "Liderazgo de equipos"
+    ],
+    "languages": [
+      {
+        "language": "Inglés",
+        "level": "C2 (EF SET 74/100)"
+      },
+      {
+        "language": "Español",
+        "level": "Nativo (LA)"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "MindHub LA",
+      "degree": "Beca SENCE",
+      "field": "Desarrollo de Aplicaciones Full-Stack JavaScript",
+      "period": {
+        "start": "2025-10",
+        "end": null,
+        "current": true
+      }
+    },
+    {
+      "institution": "U. San Sebastián",
+      "degree": "Bachillerato",
+      "field": "Medicina Pregrado",
+      "period": {
+        "start": "2014-03",
+        "end": null,
+        "current": false
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Certificado de inglés EF SET (C2 Proficient)",
+      "issuer": "EF Education First",
+      "completion_date": "2025-07-25",
+      "category": [
+        "global"
+      ],
+      "skills": [
+        "Reading",
+        "Listening",
+        "Business English"
+      ],
+      "certification": {
+        "is_certified": true,
+        "url": "https://cert.efset.org/wgoUXX",
+        "serial": "wgoUXX",
+        "hours": null
+      }
+    },
+    {
+      "title": "Introducción a la programación con Python",
+      "issuer": "Santander Open Academy",
+      "completion_date": "2025-09-12",
+      "category": [
+        "data_analyst",
+        "web_developer"
+      ],
+      "skills": [
+        "Python",
+        "Logic",
+        "Data Structures"
+      ],
+      "certification": {
+        "is_certified": true,
+        "url": "https://drive.google.com/file/d/1u0vMDozoalp5hj7bucQyizfH1gKl_GhC/view?usp=drive_link",
+        "serial": "OA-2025-0912001710542",
+        "hours": 8
+      }
+    },
+    {
+      "title": "Introducción al desarrollo web",
+      "issuer": "VS Code Edu (Microsoft)",
+      "completion_date": "2025-11-15",
+      "category": [
+        "web_developer"
+      ],
+      "skills": [
+        "VS Code",
+        "HTML",
+        "CSS",
+        "Workflow"
+      ],
+      "certification": {
+        "is_certified": false,
+        "url": null,
+        "serial": null,
+        "hours": 16
+      }
+    },
+    {
+      "title": "Introducción a Python",
+      "issuer": "VS Code Edu (Microsoft)",
+      "completion_date": "2025-12-05",
+      "category": [
+        "data_analyst",
+        "web_developer"
+      ],
+      "skills": [
+        "Python Syntax",
+        "Scripting",
+        "VS Code Extensions",
+        "Debugging"
+      ],
+      "certification": {
+        "is_certified": false,
+        "url": null,
+        "serial": null,
+        "hours": 19
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+/* Global Styles */
+
+/* Print Styles for PDF Export */
+@media print {
+
+    /* 1. Reset base to allow content to flow naturally across pages */
+    * {
+        overflow: visible !important;
+        height: auto !important;
+        min-height: 0 !important;
+        /* Force final state for animations in PDF */
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+
+    html,
+    body,
+    #root,
+    .app-wrapper,
+    .container,
+    .row {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .navbar,
+    .d-print-none,
+    .offcanvas,
+    .offcanvas-backdrop,
+    .btn-close,
+    button:not(a) {
+        display: none !important;
+    }
+
+    /* 2. Header: Ensure name and avatar stay together without gaps */
+    header {
+        display: block !important;
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    header .container {
+        background-color: #f8f9fa !important;
+        border: 1px solid #dee2e6 !important;
+        padding: 1.5rem !important;
+        border-radius: 0.5rem !important;
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* Force side-by-side using simple inline-blocks for PDF stability */
+    header .row>div {
+        display: inline-block !important;
+        vertical-align: top !important;
+        float: none !important;
+    }
+
+    header .col-6.col-md-4.col-lg-3 {
+        width: 25% !important;
+    }
+
+    header .col-6.col-md-8.col-lg-9 {
+        width: 70% !important;
+        padding-left: 2rem !important;
+    }
+
+    header img {
+        max-width: 110px !important;
+        height: auto !important;
+    }
+
+    header h1 {
+        font-size: 24pt !important;
+        margin: 0 0 0.5rem 0 !important;
+        color: #0d6efd !important;
+    }
+
+    /* Contact Buttons Style */
+    a.btn {
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        border: 1px solid #0d6efd !important;
+        color: #0d6efd !important;
+        background: transparent !important;
+        padding: 0.2rem 0.6rem !important;
+        margin: 0.2rem !important;
+        font-size: 10pt !important;
+        text-decoration: none !important;
+        border-radius: 2rem !important;
+    }
+
+    /* 3. Main Content: Side-by-Side with floats */
+    main.col-lg-9 {
+        display: block !important;
+        width: 68% !important;
+        float: left !important;
+        padding: 0 1rem 0 0 !important;
+    }
+
+    aside.col-lg-3 {
+        display: block !important;
+        /* Force visibility overriding d-none */
+        width: 30% !important;
+        float: right !important;
+        border-left: 1px solid #dee2e6 !important;
+        padding: 0 0 0 1rem !important;
+        min-height: 100px !important;
+    }
+
+    /* Important: Clear AFTER content to prevent gaps and keep footer at bottom */
+    .row::after {
+        content: "" !important;
+        display: table !important;
+        clear: both !important;
+    }
+
+    /* 4. Footer: Simple block at the end */
+    footer {
+        display: block !important;
+        width: 100% !important;
+        clear: both !important;
+        margin-top: 2rem !important;
+        border-top: 1px solid #dee2e6 !important;
+        padding: 1.5rem 0 !important;
+    }
+
+    /* Footer internal layout */
+    footer .container-fluid,
+    footer .col-12 {
+        display: block !important;
+    }
+
+    footer h5 {
+        font-size: 14pt !important;
+        display: inline-block !important;
+        margin-bottom: 0 !important;
+    }
+
+    footer p {
+        font-size: 10pt !important;
+        float: right !important;
+    }
+
+    /* 5. Cleanup and Page Breaks */
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        background: white !important;
+        color: black !important;
+    }
+
+    /* DO NOT allow sections/cards to break MID-ELEMENT, but let them flow between pages */
+    .card,
+    .list-group-item,
+    h2,
+    h3 {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+}
