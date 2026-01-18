@@ -1,16 +1,53 @@
-# React + Vite
+# 🚀 React CV Professional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una demostración práctica del uso de **React** para la creación de interfaces modulares, dinámicas y profesionales. Diseñado originalmente como un currículum interactivo, el sistema permite gestionar contenido bilingüe y generar documentos PDF de alta calidad directamente desde el navegador, conservando imagenes y enlaces para la navegación.
 
-Currently, two official plugins are available:
+## 🌟 Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Arquitectura Modular**: Componentes de React son reutilizables y limpios (`Header`, `Experience`, `Projects`, etc.).
 
-## React Compiler
+-   **Data-Driven (JSON as an API)**: Todo el contenido reside en archivos JSON (`cvData_es.json` y `cvData_en.json`) que actúan como una API local, permitiendo actualizaciones de contenido sin tocar la lógica del código.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+-   **Multilenguaje**: Soporte nativo para cambio de idioma (Español/Inglés) con un solo clic.
 
-## Expanding the ESLint configuration
+-   **Bootstrap 5**: Estructura responsiva y modular, ideal para componentes reutilizables.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Framer Motion**: Animaciones fluidas, *scroll-revels* y micro-interacciones que elevan la UX.
+
+-   **PDF Export Ready**: Optmizado con estilos CSS `@media print` para exportar un CV de dos columnas perfectamente alineado y profesional.
+
+## 🛠️ Tech Stack
+
+-   [React 19](https://react.dev/) - Biblioteca principal.
+-   [Vite](https://vitejs.dev/) - Build tool ultra rápido.
+-   [Bootstrap 5](https://getbootstrap.com/) - Framework de estilos.
+-   [Framer Motion](https://www.framer.com/motion/) - Motor de animaciones.
+
+## 🚀 Instalación y Uso
+
+1.  Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/react-cv.git
+    ```
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3. Modifica el archivo `cvData_es.json` o `cvData_en.json` para actualizar con tu contenido.
+
+4. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+5. Abre el navegador y ve a `http://localhost:5173` para ver tu cv interactivo.
+
+## 📄 Exportación a PDF
+
+Para obtener tu CV en formato PDF:
+1.  Selecciona el idioma deseado en la aplicación.
+2.  Presiona `Ctrl + P`.
+3.  Asegúrate de activar la opción **"Gráficos de fondo"** en los ajustes de impresión para conservar los colores y estilos premium.
+
+---
+Proyecto desarrollado para demostrar habilidades de desarrollo Frontend y manejo de estado en React.
+
