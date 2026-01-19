@@ -1,7 +1,7 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import duck from "../assets/img/duck_icon.jpg";
 
-export const Navbar = ({ profile, lang, setLang, onToggleSidebar }) => {
+export const Navbar = ({ lang, setLang, onToggleSidebar }) => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -12,7 +12,7 @@ export const Navbar = ({ profile, lang, setLang, onToggleSidebar }) => {
   return (
     <nav className="navbar bg-body-tertiary sticky-top shadow-sm mb-4 d-print-none p-0">
       <div className="container-fluid py-2">
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <a className="navbar-brand d-flex align-items-center" href="https://github.com/cuackzoide">
           <img
             src={duck}
             alt="Logo"
@@ -20,7 +20,7 @@ export const Navbar = ({ profile, lang, setLang, onToggleSidebar }) => {
             height="24"
             className="d-inline-block align-text-top me-2"
           />
-          <span className="fw-bold">{profile.name}</span>
+          <span className="fw-bold">Cuackzoide</span>
         </a>
 
         <div className="d-flex gap-2">
