@@ -427,6 +427,27 @@
       }
     },
     {
+      "title": "Introducción al analisis de datos con Python",
+      "issuer": "Desafio Latam",
+      "completion_date": "2025-01-19",
+      "category": [
+        "data_analyst"
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "seaborn",
+        "Data Frames",
+        "Data Visualization"
+      ],
+      "certification": {
+        "is_certified": true,
+        "url": "https://cursos.desafiolatam.com/certificates/hjd3cc6wxm",
+        "serial": "hjd3cc6wxm",
+        "hours": null
+      }
+    },
+    {
       "title": "Introducción a la programación con Python",
       "issuer": "Santander Open Academy",
       "completion_date": "2025-09-12",
