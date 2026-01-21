@@ -14,7 +14,7 @@ export const Education = ({ education, lang }) => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.15 }
+      transition: { staggerChildren: 0.3 }
     }
   };
 
@@ -37,9 +37,9 @@ export const Education = ({ education, lang }) => {
       {education.map((item, index) => (
         <motion.div
           key={index}
-          className="mb-4 p-2 rounded hover-bg-light transition-all"
+          className="mb-4 p-2 rounded bg-tertiary shadow-sm transition-all"
           variants={itemVariants}
-          whileHover={{ x: 5, backgroundColor: "rgba(0,0,0,0.02)" }}
+          whileHover={{ x: 5, backgroundColor: "rgba(0,0,0,0.1)" }}
         >
           <div className="fw-bold">{item.field}</div>
           <div className="text-primary small fw-semibold">

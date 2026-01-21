@@ -10,7 +10,7 @@ export const Navbar = ({ lang, setLang, onToggleSidebar }) => {
   });
 
   return (
-    <nav className="navbar bg-body-tertiary sticky-top shadow-sm mb-4 d-print-none p-0">
+    <nav className="navbar bg-primary-subtle sticky-top shadow-sm mb-4 d-print-none p-0">
       <div className="container-fluid py-2">
         <a className="navbar-brand d-flex align-items-center" href="https://github.com/cuackzoide">
           <img

@@ -33,7 +33,7 @@ export const Projects = ({ projects, lang }) => {
             variants={itemVariants}
           >
             <motion.div
-              className="card h-100 shadow-sm border-0 border-start border-4 border-primary overflow-hidden"
+              className="card bg-info-subtle h-100 shadow-sm border-0 border-start border-4 border-primary overflow-hidden"
               whileHover={{
                 y: -5,
                 boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)"
@@ -55,7 +55,7 @@ export const Projects = ({ projects, lang }) => {
                 <div className="d-flex gap-3">
                   <motion.a
                     href={project.github}
-                    className="btn btn-secondary w-25"
+                    className="btn btn-outline-primary w-25"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >

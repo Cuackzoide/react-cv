@@ -5,7 +5,7 @@ export const Certifications = ({ certifications, lang }) => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.1 }
+      transition: { staggerChildren: 0.3 }
     }
   };
 
@@ -28,9 +28,9 @@ export const Certifications = ({ certifications, lang }) => {
       {certifications.map((cert, index) => (
         <motion.div
           key={index}
-          className="d-flex justify-content-between align-items-center mb-3 p-2 rounded hover-bg-light transition-all"
+          className="d-flex justify-content-between align-items-center m-2 p-2 rounded bg-tertiary shadow-sm transition-all"
           variants={itemVariants}
-          whileHover={{ x: 5, backgroundColor: "rgba(0,0,0,0.02)" }}
+          whileHover={{ x: 5, backgroundColor: "rgba(0,0,0,0.1)" }}
         >
           <div>
             <div className="fw-bold small">{cert.title}</div>

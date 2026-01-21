@@ -31,7 +31,7 @@ export const Experience = ({ experience, lang }) => {
       viewport={{ once: true, amount: 0.1 }}
       variants={containerVariants}
     >
-      <h2 className="border-bottom pb-2 mb-4 text-primary fw-bold">
+      <h2 className="border-bottom pb-2 mb-4 text-primary fw-bold text-center">
         {lang === "es" ? "Experiencia Profesional" : "Professional Experience"}
       </h2>
       <div className="row g-4">
@@ -42,7 +42,7 @@ export const Experience = ({ experience, lang }) => {
             variants={itemVariants}
           >
             <motion.div
-              className="p-3 rounded-4 border-start border-4 border-primary bg-white shadow-sm h-100"
+              className="p-3 rounded-4 border-start border-4 border-primary bg-primary-subtle shadow-sm h-100"
               whileHover={{
                 y: -5,
                 boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)"

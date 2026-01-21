@@ -22,7 +22,7 @@ export const Header = ({ profile, contact }) => {
 
   return (
     <motion.div
-      className="w-100 p-3 mb-3 bg-body-secondary rounded-3"
+      className="w-100 p-3 mb-3 bg-success-subtle rounded-3"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
