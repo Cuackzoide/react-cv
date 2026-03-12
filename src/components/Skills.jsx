@@ -5,13 +5,17 @@ export const Skills = ({ skills, lang }) => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.05 }
-    }
+      transition: { staggerChildren: 0.05 },
+    },
   };
 
   const badgeVariants = {
     hidden: { opacity: 0, scale: 0.5 },
-    visible: { opacity: 1, scale: 1, transition: { type: "spring", stiffness: 200 } }
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { type: "spring", stiffness: 200 },
+    },
   };
 
   return (
@@ -30,9 +34,9 @@ export const Skills = ({ skills, lang }) => {
           {lang === "es" ? "Técnicas" : "Technical"}
         </p>
         <div className="d-flex flex-wrap gap-2 my-3">
-          {skills.technical.map((s) => (
+          {skills.technical.map((s, i) => (
             <motion.span
-              key={s}
+              key={i}
               className="badge bg-light text-primary border"
               variants={badgeVariants}
               whileHover={{ scale: 1.05 }}
@@ -45,9 +49,9 @@ export const Skills = ({ skills, lang }) => {
           {lang === "es" ? "Blandas" : "Soft"}
         </p>
         <div className="d-flex flex-wrap gap-2 my-3">
-          {skills.soft.map((s) => (
+          {skills.soft.map((s, i) => (
             <motion.span
-              key={s}
+              key={i}
               className="badge bg-light text-primary border"
               variants={badgeVariants}
               whileHover={{ scale: 1.05 }}
@@ -75,4 +79,3 @@ export const Skills = ({ skills, lang }) => {
     </motion.section>
   );
 };
-

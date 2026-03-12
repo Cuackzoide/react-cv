@@ -85,13 +85,10 @@
   },
   "projects": [
     {
-      "name": "Gourmet Go (API Integration)",
+      "name": "Gourmet Go",
       "slug": "gourmet-go",
       "type": "Application",
-      "category": [
-        "web_developer",
-        "data_analyst"
-      ],
+      "category": ["web_developer", "data_analyst"],
       "stack": [
         "JavaScript",
         "HTML5",
@@ -117,18 +114,33 @@
       "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/"
     },
     {
+      "name": "Express & PostgreSQL Integration",
+      "slug": "express-pg",
+      "type": "Backend",
+      "category": ["web_developer", "data_analyst"],
+      "stack": ["Node.js", "Express", "PostgreSQL", "dotenv"],
+      "concepts": [
+        "Database Connection Pooling",
+        "Environment Variables Management",
+        "Backend Architecture",
+        "SQL Querying",
+        "Error Handling"
+      ],
+      "description": "Development of a robust server architecture for relational data management and persistence.",
+      "highlights": [
+        "Secure PostgreSQL connection configuration via environment variables.",
+        "Implementation of CRUD operations with asynchronous error handling.",
+        "Structuring of routes and controllers to ensure backend scalability."
+      ],
+      "github": "https://github.com/Cuackzoide/Express-pg",
+      "demo": "https://express-pg.onrender.com/api/cursos"
+    },
+    {
       "name": "Mastermind Digital",
       "slug": "mastermind",
       "type": "Game / Logic",
-      "category": [
-        "web_developer"
-      ],
-      "stack": [
-        "Python",
-        "JavaScript",
-        "HTML5",
-        "CSS3"
-      ],
+      "category": ["web_developer"],
+      "stack": ["Python", "JavaScript", "HTML5", "CSS3"],
       "concepts": [
         "Algorithm Migration",
         "Game Logic",
@@ -149,14 +161,8 @@
       "name": "Connect-4",
       "slug": "conecta-4",
       "type": "Game / Logic",
-      "category": [
-        "web_developer"
-      ],
-      "stack": [
-        "JavaScript",
-        "HTML5",
-        "CSS3"
-      ],
+      "category": ["web_developer"],
+      "stack": ["JavaScript", "HTML5", "CSS3"],
       "concepts": [
         "Win-condition Algorithms",
         "Matrix Logic (2D Arrays)",
@@ -174,54 +180,16 @@
       "demo": "https://cuackzoide.github.io/Conecta-4/"
     },
     {
-      "name": "Express & PostgreSQL Integration",
-      "slug": "express-pg",
-      "type": "Backend",
-      "category": [
-        "web_developer",
-        "data_analyst"
-      ],
-      "stack": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "dotenv"
-      ],
-      "concepts": [
-        "Database Connection Pooling",
-        "Environment Variables Management",
-        "Backend Architecture",
-        "SQL Querying",
-        "Error Handling"
-      ],
-      "description": "Development of a robust server architecture for relational data management and persistence.",
-      "highlights": [
-        "Secure PostgreSQL connection configuration via environment variables.",
-        "Implementation of CRUD operations with asynchronous error handling.",
-        "Structuring of routes and controllers to ensure backend scalability."
-      ],
-      "github": "https://github.com/Cuackzoide/Express-pg",
-      "demo": "https://express-pg.onrender.com/api/cursos"
-    },
-    {
       "name": "Corporate Landing Page",
       "slug": "landing-page",
       "type": "Frontend",
-      "category": [
-        "web_developer"
-      ],
-      "stack": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Bootstrap 5"
-      ],
+      "category": ["web_developer"],
+      "stack": ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
       "concepts": [
         "Responsive Web Design",
-        "Semantic HTML",
-        "UI/UX Components",
         "Mobile-First Development",
-        "SEO Basics"
+        "Semantic HTML",
+        "UI/UX Components"
       ],
       "description": "Creation of a professional, fully adaptive web interface focused on conversion and user experience.",
       "highlights": [
@@ -231,40 +199,29 @@
       ],
       "github": "https://github.com/Cuackzoide/EF_M2-Landing_page",
       "demo": "https://cuackzoide.github.io/EF_M2-Landing_page/"
-    },
-    {
-      "name": "QuickOrder (Full Stack)",
-      "slug": "quickorder",
-      "type": "Application",
-      "category": [
-        "web_developer"
-      ],
-      "stack": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "concepts": [
-        "Fullstack Integration",
-        "RESTful APIs",
-        "Relational Databases",
-        "Collaborative Development (Git)",
-        "CRUD Operations"
-      ],
-      "description": "Collaboration on an order management system, integrating frontend and backend.",
-      "highlights": [
-        "Implementation of endpoints for real-time data management.",
-        "Data persistence leveraging relational databases.",
-        "Scalable folder architecture for collaborative development."
-      ],
-      "github": "https://github.com/joaquin-ossandon/quickorder-js-fullstack",
-      "demo": null
     }
   ],
   "experience": [
+    {
+      "company": "TELUS Digital AI",
+      "main_role": "Data Accuracy Analyst",
+      "specialties": [
+        "Data Research and Validation",
+        "Quality Assurance",
+        "AI Model Training",
+        "Attention to Detail"
+      ],
+      "period": {
+        "start": "2026-02",
+        "end": null,
+        "current": true
+      },
+      "highlights": [
+        "Audited over 100+ weekly data points to ensure high-fidelity inputs and data integrity for machine learning models.",
+        "Collaborated on data classification projects, maintaining up to 90% adherence rate to strict quality benchmarks.",
+        "Performed QA on AI outputs to identify edge cases, improving training data accuracy."
+      ]
+    },
     {
       "company": "ASISTENCIAS GEA CHILE S.A.",
       "main_role": "Data Analyst",
@@ -280,14 +237,14 @@
         "current": false
       },
       "highlights": [
-        "Administered and managed relational databases to drive strategic decision-making.",
-        "Optimized turnaround times by developing Excel Macros for automated reporting.",
-        "Designed interactive Dashboards to track critical performance metrics and KPIs."
+        "Administered relational databases to drive strategic decision-making across multiple business units.",
+        "Reduced report generation turnaround time by 60% through the development of automated Excel Macros.",
+        "Designed interactive KPI Dashboards that improved executive monitoring and decision-making speed."
       ]
     },
     {
       "company": "ASISTENCIAS GEA CHILE S.A.",
-      "main_role": "Retention & Loyalty Specialist",
+      "main_role": "Retention Specialist",
       "specialties": [
         "CRM Management",
         "Process Automation",
@@ -300,9 +257,9 @@
         "current": false
       },
       "highlights": [
+        "Managed high-priority incidents leveraging proprietary CRM systems.",
         "Digitized and automated discount calculation processes using advanced Excel functions.",
-        "Managed high-priority incidents leveraging the company's proprietary CRM.",
-        "Promoted to Data Analyst ahead of schedule due to excellence in workflow optimization."
+        "Promoted to Data Analyst unexpectedly due to my outstanding workflow optimization.."
       ]
     },
     {
@@ -320,8 +277,8 @@
         "current": false
       },
       "highlights": [
-        "Managed full sales cycles using digital lead generation and capture tools.",
         "Utilized automated dialers and CRM systems for precise client tracking and record-keeping.",
+        "Managed full sales cycles using digital lead generation and capture tools.",
         "Consistently met commercial targets through conversion metric analysis."
       ]
     },
@@ -411,14 +368,8 @@
       "title": "EF SET English Certificate (C2 Proficient)",
       "issuer": "EF Education First",
       "completion_date": "2025-07-25",
-      "category": [
-        "global"
-      ],
-      "skills": [
-        "Reading",
-        "Listening",
-        "Business English"
-      ],
+      "category": ["global"],
+      "skills": ["Reading", "Listening", "Business English"],
       "certification": {
         "is_certified": true,
         "url": "https://cert.efset.org/wgoUXX",
@@ -430,9 +381,7 @@
       "title": "Introduction to Data Analysis with Python",
       "issuer": "Desafio Latam",
       "completion_date": "2025-01-19",
-      "category": [
-        "data_analyst"
-      ],
+      "category": ["data_analyst"],
       "skills": [
         "Python",
         "Pandas",
@@ -451,15 +400,8 @@
       "title": "Introduction to Python Programming",
       "issuer": "Santander Open Academy",
       "completion_date": "2025-09-12",
-      "category": [
-        "data_analyst",
-        "web_developer"
-      ],
-      "skills": [
-        "Python",
-        "Logic",
-        "Data Structures"
-      ],
+      "category": ["data_analyst", "web_developer"],
+      "skills": ["Python", "Logic", "Data Structures"],
       "certification": {
         "is_certified": true,
         "url": "https://drive.google.com/file/d/1u0vMDozoalp5hj7bucQyizfH1gKl_GhC/view?usp=drive_link",
@@ -471,15 +413,8 @@
       "title": "Intro to Web Development",
       "issuer": "VS Code Edu (Microsoft)",
       "completion_date": "2025-11-15",
-      "category": [
-        "web_developer"
-      ],
-      "skills": [
-        "VS Code",
-        "HTML",
-        "CSS",
-        "Workflow"
-      ],
+      "category": ["web_developer"],
+      "skills": ["VS Code", "HTML", "CSS", "Workflow"],
       "certification": {
         "is_certified": false,
         "url": null,
@@ -491,10 +426,7 @@
       "title": "Intro to Python",
       "issuer": "VS Code Edu (Microsoft)",
       "completion_date": "2025-12",
-      "category": [
-        "data_analyst",
-        "web_developer"
-      ],
+      "category": ["data_analyst", "web_developer"],
       "skills": [
         "Python Syntax",
         "Scripting",

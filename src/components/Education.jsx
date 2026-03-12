@@ -6,7 +6,10 @@ export const Education = ({ education, lang }) => {
     const parts = dateStr.split("-");
     const date = new Date(parts[0], parts[1] - 1);
     const options = { month: "long", year: "numeric" };
-    const formatted = date.toLocaleDateString(lang === "es" ? "es-ES" : "en-US", options);
+    const formatted = date.toLocaleDateString(
+      lang === "es" ? "es-ES" : "en-US",
+      options,
+    );
     return formatted.charAt(0).toUpperCase() + formatted.slice(1);
   };
 
@@ -14,13 +17,13 @@ export const Education = ({ education, lang }) => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.3 }
-    }
+      transition: { staggerChildren: 0.3 },
+    },
   };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
-    visible: { opacity: 1, y: 0 }
+    visible: { opacity: 1, y: 0 },
   };
 
   return (

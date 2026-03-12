@@ -27,7 +27,11 @@ function App() {
       <div className="container m-auto p-2">
         <div className="row">
           <header className="col-12">
-            <Header profile={cvData.profile} contact={cvData.contact} lang={lang} />
+            <Header
+              profile={cvData.profile}
+              contact={cvData.contact}
+              lang={lang}
+            />
             <Summary professionalProfile={cvData.professional_profile} />
           </header>
           <main className="col-12 col-lg-9 mt-2">
@@ -48,7 +52,9 @@ function App() {
           style={{ visibility: showSidebar ? "visible" : "hidden" }}
         >
           <header className="offcanvas-header">
-            <h5 className="offcanvas-title">Sidebar</h5>
+            <h5 className="offcanvas-title text-primary fw-bold">
+              {lang === "es" ? "Más Información" : "More Information"}
+            </h5>
             <button
               type="button"
               className="btn-close"
@@ -69,10 +75,7 @@ function App() {
         )}
       </div>
       {/* Footer (Full Width) */}
-      <Footer
-        profile={cvData.profile}
-        contact={cvData.contact}
-        lang={lang} />
+      <Footer profile={cvData.profile} contact={cvData.contact} lang={lang} />
     </div>
   );
 }
