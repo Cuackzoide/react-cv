@@ -20,20 +20,20 @@ export const Skills = ({ skills, lang }) => {
 
   return (
     <motion.section
-      className="w-100 my-2 py-2"
+      className="w-100 mt-2 py-2"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
       variants={containerVariants}
     >
-      <h3 className="fw-bold my-2 text-uppercase text-muted">
+      <h3 className="text-primary text-center fw-bold">
         {lang === "es" ? "Habilidades Blandas" : "Soft Skills"}
       </h3>
       <div className="d-flex flex-wrap gap-2 my-3">
         {skills.soft.map((s, i) => (
           <motion.span
             key={i}
-            className="badge bg-light text-primary border fs-5"
+            className="badge bg-light text-primary border"
             variants={badgeVariants}
             whileHover={{ scale: 1.05 }}
           >
@@ -41,14 +41,14 @@ export const Skills = ({ skills, lang }) => {
           </motion.span>
         ))}
       </div>
-      <h3 className="fw-bold my-2 text-uppercase text-muted">
+      <h3 className="text-primary text-center fw-bold">
         {lang === "es" ? "Idiomas" : "Languages"}
       </h3>
-      <div className="d-flex flex-wrap gap-2 my-3">
+      <div className="d-flex flex-wrap gap-2 mt-3">
         {skills.languages.map((l, i) => (
           <motion.span
             key={i}
-            className="badge bg-light text-primary border fs-5"
+            className="badge bg-light text-primary border"
             variants={badgeVariants}
             whileHover={{ scale: 1.05 }}
           >

@@ -21,7 +21,7 @@ export const Sidebar = ({ cvData, lang, isOpen, onClose }) => {
             onClick={onClose}
           ></button>
         </div>
-        <div className="offcanvas-body d-flex flex-column gap-4">
+        <div className="offcanvas-body">
           <Skills skills={cvData.skills} lang={lang} />
           <Certifications certifications={cvData.certifications} lang={lang} />
           <Education education={cvData.education} lang={lang} />

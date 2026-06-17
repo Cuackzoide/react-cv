@@ -20,12 +20,14 @@ function App() {
 
   return (
     <div className="d-flex flex-column min-vh-100 app-wrapper">
-      <Sidebar
-        cvData={cvData}
-        lang={lang}
-        isOpen={isSidebarOpen}
-        onClose={() => setIsSidebarOpen(false)}
-      />
+      <aside>
+        <Sidebar
+          cvData={cvData}
+          lang={lang}
+          isOpen={isSidebarOpen}
+          onClose={() => setIsSidebarOpen(false)}
+        />
+      </aside>
       <Navbar
         lang={lang}
         setLang={setLang}

@@ -165,7 +165,7 @@
       ],
       "github": "https://github.com/Cuackzoide.github.io/",
       "demo": "https://cuackzoide.github.io/",
-      "img": "/proyects/Portafolio.gif"
+      "img": "./proyects/Portafolio.gif"
     },
     {
       "name": "Mailinko company website",
@@ -188,7 +188,7 @@
       ],
       "github": "https://github.com/Cuackzoide/mailinko",
       "demo": "https://mailinko.cl",
-      "img": "/proyects/mailinko_web.gif"
+      "img": "./proyects/mailinko_web.gif"
     },
     {
       "name": "Gourmet Go",
@@ -218,7 +218,7 @@
       ],
       "github": "https://github.com/Cuackzoide/EF_M4-API_gourmet_go",
       "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/",
-      "img": "/proyects/gourmet_go.gif"
+      "img": "./proyects/gourmet_go.gif"
     },
     {
       "name": "KanBan Pro",
@@ -241,7 +241,7 @@
       ],
       "github": "https://github.com/Cuackzoide/EF_M8-Kanban_Pro_Api",
       "demo": null,
-      "img": "/proyects/KanbanPro.gif"
+      "img": "./proyects/KanbanPro.gif"
     },
     {
       "name": "Mastermind Digital",
@@ -264,7 +264,7 @@
       ],
       "github": "https://github.com/Cuackzoide/Mastermind",
       "demo": "https://cuackzoide.github.io/Mastermind",
-      "img": "/proyects/Mastermind.gif"
+      "img": "./proyects/Mastermind.gif"
     },
     {
       "name": "Conecta-4",
@@ -287,7 +287,7 @@
       ],
       "github": "https://github.com/Cuackzoide/Conecta-4",
       "demo": "https://cuackzoide.github.io/Conecta-4/",
-      "img": "/proyects/Conecta4.gif"
+      "img": "./proyects/Conecta4.gif"
     }
   ],
   "experience": [

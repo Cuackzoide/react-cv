@@ -29,14 +29,6 @@ export const Navbar = ({ lang, setLang, onOpenSidebar }) => {
         </a>
 
         <div className="d-flex gap-2">
-          {/*Toggle de sidebar*/}
-          <button
-            onClick={onOpenSidebar}
-            className="btn btn-sm btn-dark"
-            type="button"
-          >
-            <span>+ Info ☰</span>
-          </button>
           {/* Selector de Idioma */}
           <button
             className="btn btn-sm btn-dark"
@@ -44,6 +36,7 @@ export const Navbar = ({ lang, setLang, onOpenSidebar }) => {
           >
             {lang === "es" ? "English" : "Español"}
           </button>
+          {/* Descarga CV */}
           <a
             className="btn btn-sm btn-dark"
             href={lang === "es" ? CV_ES : CV_EN}
@@ -55,6 +48,14 @@ export const Navbar = ({ lang, setLang, onOpenSidebar }) => {
           >
             <span>{lang === "es" ? "Descargar CV" : "Download CV"}</span>
           </a>
+          {/* Toggle de sidebar */}
+          <button
+            onClick={onOpenSidebar}
+            className="btn btn-sm btn-dark"
+            type="button"
+          >
+            <span>+ Info ☰</span>
+          </button>
         </div>
       </div>
       {/* Scroll Progress Bar */}
