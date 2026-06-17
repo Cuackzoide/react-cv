@@ -5,13 +5,17 @@ export const Projects = ({ projects, lang }) => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.2 }
-    }
+      transition: { staggerChildren: 0.2 },
+    },
   };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: "easeOut" },
+    },
   };
 
   return (
@@ -22,7 +26,7 @@ export const Projects = ({ projects, lang }) => {
       viewport={{ once: true, amount: 0.1 }}
       variants={containerVariants}
     >
-      <h2 className="h2 text-primary fw-bold text-center border-bottom pb-2 mb-4">
+      <h2 className="h2 text-primary fw-bold border-bottom pb-2 mb-4">
         {lang === "es" ? "Proyectos Destacados" : "Featured Projects"}
       </h2>
       <div className="row g-4">
@@ -36,41 +40,63 @@ export const Projects = ({ projects, lang }) => {
               className="card bg-info-subtle h-100 shadow-sm border-0 border-start border-4 border-primary overflow-hidden"
               whileHover={{
                 y: -5,
-                boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)"
+                boxShadow:
+                  "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)",
               }}
             >
-              <div className="card-body">
-                <h5 className="fw-bold mb-3">{project.name}</h5>
-                <div className="mb-3 d-flex flex-wrap gap-2">
-                  {project.stack.map((s) => (
-                    <span
-                      key={s}
-                      className="badge bg-light text-primary border"
-                    >
-                      {s}
-                    </span>
-                  ))}
+              <div className="row g-0 h-100">
+                <div className="col-md-4 d-flex align-items-center bg-white justify-content-center">
+                  <img
+                    src={project.img}
+                    className="img-fluid h-100 object-fit-cover"
+                    alt={project.name}
+                    onError={(e) => {
+                      e.target.src =
+                        "https://dummyimage.com/600x400/2563eb/fff&text=Project";
+                    }}
+                  />
                 </div>
-                <p className="small text-muted mb-4">{project.description}</p>
-                <div className="d-flex gap-3">
-                  <motion.a
-                    href={project.github}
-                    className="btn btn-outline-primary w-25"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    GitHub
-                  </motion.a>
-                  {project.demo && (
-                    <motion.a
-                      href={project.demo}
-                      className="btn btn-primary w-25"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      Demo
-                    </motion.a>
-                  )}
+                <div className="col-md-8">
+                  <div className="card-body d-flex flex-column h-100">
+                    <h5 className="fw-bold mb-3">{project.name}</h5>
+                    <div className="mb-3 d-flex flex-wrap gap-2">
+                      {project.stack.map((s) => (
+                        <span
+                          key={s}
+                          className="badge bg-light text-primary border"
+                        >
+                          {s}
+                        </span>
+                      ))}
+                    </div>
+                    <p className="small text-muted mb-4 flex-grow-1">
+                      {project.description}
+                    </p>
+                    <div className="d-flex gap-2">
+                      <motion.a
+                        href={project.github}
+                        className="btn btn-outline-primary btn-sm flex-fill"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        GitHub
+                      </motion.a>
+                      {project.demo && (
+                        <motion.a
+                          href={project.demo}
+                          className="btn btn-primary btn-sm flex-fill"
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Demo
+                        </motion.a>
+                      )}
+                    </div>
+                  </div>
                 </div>
               </div>
             </motion.div>

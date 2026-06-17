@@ -10,14 +10,14 @@ export const Header = ({ profile, contact }) => {
       transition: {
         duration: 0.6,
         when: "beforeChildren",
-        staggerChildren: 0.1
-      }
-    }
+        staggerChildren: 0.1,
+      },
+    },
   };
 
   const itemVariants = {
     hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1 }
+    visible: { opacity: 1, scale: 1 },
   };
 
   return (
@@ -35,14 +35,20 @@ export const Header = ({ profile, contact }) => {
             className="img-fluid rounded shadow-sm"
           />
         </motion.div>
-        <div className="col-6 col-md-8 col-lg-9">
-          <motion.h1 className="display-5 fw-bold text-start mb-4" variants={itemVariants}>
+        <div className="col-12 col-md-8 col-lg-9">
+          <motion.h1
+            className="display-5 fw-bold text-start mb-4"
+            variants={itemVariants}
+          >
             {profile.name}
           </motion.h1>
-          <motion.p className="lead text-primary fw-semibold" variants={itemVariants}>
+          <motion.h2
+            className="text-primary fw-semibold mb-4"
+            variants={itemVariants}
+          >
             {profile.title}
-          </motion.p>
-          <div className="d-flex flex-wrap justify-content-start gap-2">
+          </motion.h2>
+          <div className="d-flex flex-wrap justify-content-start gap-2 mb-2">
             {contact.social.map((link, idx) => (
               <motion.a
                 key={idx}
@@ -61,12 +67,12 @@ export const Header = ({ profile, contact }) => {
               <motion.a
                 key={idx}
                 href={item.url}
-                className="btn btn-outline-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 variants={itemVariants}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                {item.value}
+                {item.platform}
               </motion.a>
             ))}
           </div>
@@ -75,4 +81,3 @@ export const Header = ({ profile, contact }) => {
     </motion.div>
   );
 };
-

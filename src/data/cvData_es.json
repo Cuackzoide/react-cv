@@ -1,7 +1,12 @@
 {
   "profile": {
     "name": "Oliver Leonardo Barra Acevedo",
-    "title": "Analista de Datos | Desarrollador web Junior"
+    "title": "Desarrollador web FullStack JavaScript & Analista de Datos",
+    "resume": [
+      "Apasionado por la tecnología y en constante aprendizaje para mejorar mis habilidades.",
+      "Especializado en crear soluciones robustas en el ecosistema JavaScript y optimizar procesos mediante análisis de datos.",
+      "Con experiencia laboral en la industria tecnológica, en equipos de trabajo multidisciplinarios y modalidad de trabajo remoto."
+    ]
   },
   "contact": {
     "main": [
@@ -40,50 +45,151 @@
     ]
   },
   "professional_profile": {
-    "headline": "Analista de Datos | Desarrollador Full-Stack",
+    "headline": "Desarrollador Web Full-Stack JavaScript",
     "roles": {
-      "data_analyst": {
-        "label": "Analista de Datos",
-        "summary": "Especialista en optimización de procesos y toma de decisiones basada en métricas.",
-        "core_focus": [
-          "Automatización de flujos de trabajo",
-          "Análisis de KPIs y reporting ejecutivo",
-          "Gestión de bases de datos relacionales"
-        ],
-        "preferences": {
-          "modality": "Remoto / Híbrido",
-          "target_roles": [
-            "Data Analyst",
-            "Operations Analyst",
-            "Data Reporting Analyst",
-            "Automation Specialist",
-            "Business Intelligence Analyst"
-          ]
-        }
-      },
       "web_developer": {
         "label": "Desarrollador Web Fullstack",
         "summary": "Creador de soluciones digitales modernas con foco en la escalabilidad y UX.",
         "core_focus": [
-          "Diseño de interfaces responsivas y accesibles",
-          "Desarrollo de SPAs con React",
-          "Construcción de APIs RESTful con Node.js"
+          "Diseño de interfaces responsivas y accesibles 💻",
+          "Desarrollo de SPAs con Frameworks basados en React ⚛️",
+          "Construcción de APIs RESTful con Node.js 🚀"
         ],
         "preferences": {
           "modality": "Remoto / Híbrido",
-          "target_roles": [
-            "Junior Web Developer",
-            "Fullstack JavaScript Developer",
-            "React Developer",
-            "Node.js Developer",
-            "Frontend Engineer",
-            "Software Engineer"
+          "tecnologies": [
+            {
+              "name": "HTML5",
+              "icon": "https://img.icons8.com/?size=96&id=20909&format=png"
+            },
+            {
+              "name": "CSS3",
+              "icon": "https://img.icons8.com/?size=96&id=21278&format=png"
+            },
+            {
+              "name": "JavaScript",
+              "icon": "https://img.icons8.com/?size=96&id=108784&format=png"
+            },
+            {
+              "name": "React",
+              "icon": "https://img.icons8.com/?size=96&id=asWSSTBrDlTW&format=png"
+            },
+            {
+              "name": "Node.js",
+              "icon": "https://img.icons8.com/?size=96&id=hsPbhkOH4FMe&format=png"
+            },
+            {
+              "name": "Express",
+              "icon": "https://img.icons8.com/?size=96&id=SDVmtZ6VBGXt&format=png"
+            },
+            {
+              "name": "PostgreSQL",
+              "icon": "https://img.icons8.com/?size=96&id=38561&format=png"
+            },
+            {
+              "name": "Bootstrap 5",
+              "icon": "https://img.icons8.com/?size=96&id=EzPCiQUqWWEa&format=png"
+            },
+            {
+              "name": "Git",
+              "icon": "https://img.icons8.com/?size=96&id=20906&format=png"
+            },
+            {
+              "name": "GitHub",
+              "icon": "https://img.icons8.com/?size=96&id=3tC9EQumUAuq&format=png"
+            }
+          ]
+        }
+      },
+      "data_analyst": {
+        "label": "Analista de Datos",
+        "summary": "Especialista en optimización de procesos y toma de decisiones basada en métricas.",
+        "core_focus": [
+          "Automatización de flujos de trabajo 🤖",
+          "Análisis de KPIs y reporting ejecutivo 📊",
+          "Gestión de bases de datos relacionales 🗄️"
+        ],
+        "preferences": {
+          "modality": "Remoto / Híbrido",
+          "tecnologies": [
+            {
+              "name": "Excel",
+              "icon": "https://img.icons8.com/?size=96&id=13654&format=png"
+            },
+            {
+              "name": "PowerBi",
+              "icon": "https://img.icons8.com/?size=96&id=Ny0t2MYrJ70p&format=png"
+            },
+            {
+              "name": "Google Sheets",
+              "icon": "https://img.icons8.com/?size=96&id=qrAVeBIrsjod&format=png"
+            },
+            {
+              "name": "Apps Script",
+              "icon": "https://img.icons8.com/?size=96&id=17949&format=png"
+            },
+            {
+              "name": "Python",
+              "icon": "https://img.icons8.com/?size=96&id=13441&format=png"
+            },
+            {
+              "name": "Pandas",
+              "icon": "https://img.icons8.com/?size=96&id=xSkewUSqtErH&format=png"
+            },
+            {
+              "name": "SQL",
+              "icon": "https://img.icons8.com/?size=96&id=J6KcaRLsTgpZ&format=png"
+            }
           ]
         }
       }
     }
   },
   "projects": [
+    {
+      "name": "Portafolio Profesional",
+      "slug": "portafolio",
+      "type": "Frontend",
+      "category": ["web_developer"],
+      "stack": ["React", "Vite", "Framer Motion", "Bootstrap 5"],
+      "concepts": [
+        "Diseño Web Modular",
+        "Componentes UI/UX",
+        "Desarrollo Mobile-First"
+      ],
+      "description": "Creación de una interfaz web profesional y totalmente adaptativa centrada en la modularidad y reutilización de componentes.",
+      "highlights": [
+        "Integración de componentes de Bootstrap para acelerar el desarrollo y garantizar la compatibilidad.",
+        "Optimización de recursos visuales y uso de reactividad para cambio de idiomas.",
+        "Implementación de animaciones personalizadas mediante Framer Motion."
+      ],
+      "github": "https://github.com/Cuackzoide.github.io/",
+      "demo": "https://cuackzoide.github.io/",
+      "img": "/proyects/Portafolio.gif"
+    },
+    {
+      "name": "Sitio web empresa Mailinko",
+      "slug": "mailinko-web",
+      "type": "Frontend",
+      "category": ["web_developer"],
+      "stack": ["HTML5", "CSS3", "Bootstrap 5", "cPanel", "Apache server"],
+      "concepts": [
+        "Sitio web estatico",
+        "Multiples paginas",
+        "Imagen coorporativa",
+        "Configuración de dominio",
+        "Certificado SSL"
+      ],
+      "description": "Sitio web coorporativo de la empresa Mailinko, dedicada al rubro de la maestranza y el GLP.",
+      "highlights": [
+        "Sustitución de una configuración pesada en WordPress por un sitio estático moderno (HTML5/CSS3).",
+        "Interfaz limpia y profesional creada con Bootstrap CDN para diseños ágiles y adaptativos.",
+        "Integración y alojamiento sin problemas en servidores compartidos tradicionales."
+      ],
+      "github": "https://github.com/Cuackzoide/mailinko",
+      "demo": "https://mailinko.cl",
+      "img": "/proyects/mailinko_web.gif"
+    },
     {
       "name": "Gourmet Go",
       "slug": "gourmet-go",
@@ -111,19 +217,20 @@
         "Implementación de UX fluida mediante manejo avanzado de promesas y filtrado dinámico."
       ],
       "github": "https://github.com/Cuackzoide/EF_M4-API_gourmet_go",
-      "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/"
+      "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/",
+      "img": "/proyects/gourmet_go.gif"
     },
     {
-      "name": "Integración Express & PostgreSQL",
-      "slug": "express-pg",
-      "type": "Backend",
+      "name": "KanBan Pro",
+      "slug": "kanban-pro",
+      "type": "Application",
       "category": ["web_developer", "data_analyst"],
-      "stack": ["Node.js", "Express", "PostgreSQL", "dotenv"],
+      "stack": ["Node.js", "Express", "PostgreSQL", "dotenv", "hbs"],
       "concepts": [
-        "Pool de Conexiones a Base de Datos",
+        "ORM gestión de Base de Datos",
         "Gestión de Variables de Entorno",
-        "Arquitectura Backend",
-        "Consultas SQL",
+        "Arquitectura MVC",
+        "Server Side Rendering",
         "Manejo de Errores"
       ],
       "description": "Desarrollo de una arquitectura de servidor robusta para la gestión y persistencia de datos relacionales.",
@@ -133,7 +240,8 @@
         "Estructuración de rutas y controladores para asegurar la escalabilidad del backend."
       ],
       "github": "https://github.com/Cuackzoide/Express-pg",
-      "demo": "https://express-pg.onrender.com/api/cursos"
+      "demo": "https://express-pg.onrender.com/api/cursos",
+      "img": "/proyects/KanbanPro.gif"
     },
     {
       "name": "Mastermind Digital",
@@ -155,7 +263,8 @@
         "Manejo avanzado del DOM para feedback visual inmediato."
       ],
       "github": "https://github.com/Cuackzoide/Mastermind",
-      "demo": "https://cuackzoide.github.io/Mastermind"
+      "demo": "https://cuackzoide.github.io/Mastermind",
+      "img": "/proyects/Mastermind.gif"
     },
     {
       "name": "Conecta-4",
@@ -177,57 +286,8 @@
         "Estructuración de código limpia basada en funciones puras."
       ],
       "github": "https://github.com/Cuackzoide/Conecta-4",
-      "demo": "https://cuackzoide.github.io/Conecta-4/"
-    },
-    {
-      "name": "Landing Page Profesional",
-      "slug": "landing-page",
-      "type": "Frontend",
-      "category": ["web_developer"],
-      "stack": ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
-      "concepts": [
-        "Diseño Web Responsivo",
-        "Desarrollo Mobile-First",
-        "HTML Semántico",
-        "Componentes UI/UX"
-      ],
-      "description": "Creación de una interfaz web profesional y totalmente adaptativa centrada en la conversión y la experiencia de usuario.",
-      "highlights": [
-        "Integración de componentes de Bootstrap para acelerar el desarrollo y garantizar la compatibilidad.",
-        "Optimización de recursos visuales y uso de HTML semántico para mejorar el SEO técnico.",
-        "Implementación de interactividad personalizada mediante JavaScript nativo."
-      ],
-      "github": "https://github.com/Cuackzoide/EF_M2-Landing_page",
-      "demo": "https://cuackzoide.github.io/EF_M2-Landing_page/"
-    },
-    {
-      "name": "QuickOrder (Full Stack)",
-      "slug": "quickorder",
-      "type": "Application",
-      "category": ["web_developer"],
-      "stack": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "concepts": [
-        "Integración Full Stack",
-        "APIs RESTful",
-        "Bases de Datos Relacionales",
-        "Desarrollo Colaborativo (Git)",
-        "Operaciones CRUD"
-      ],
-      "description": "Colaboración en sistema de gestión de pedidos, integrando frontend y backend.",
-      "highlights": [
-        "Implementación de endpoints para gestión de datos en tiempo real.",
-        "Persistencia de datos utilizando bases de datos relacionales.",
-        "Arquitectura de carpetas escalable para desarrollo colaborativo."
-      ],
-      "github": "https://github.com/joaquin-ossandon/quickorder-js-fullstack",
-      "demo": null
+      "demo": "https://cuackzoide.github.io/Conecta-4/",
+      "img": "/proyects/Conecta4.gif"
     }
   ],
   "experience": [
@@ -334,20 +394,20 @@
   ],
   "skills": {
     "technical": [
-      "Excel",
-      "Macros",
-      "SQL",
-      "PostgreSQL",
       "HTML",
       "CSS",
       "JavaScript",
       "ES6+",
       "React",
       "Node.js",
-      "Git",
+      "PostgreSQL",
       "GitHub",
+      "Git",
       "Python",
-      "Pandas"
+      "Pandas",
+      "Excel",
+      "Macros",
+      "SQL"
     ],
     "soft": [
       "Proactivo",

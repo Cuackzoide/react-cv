@@ -1,7 +1,12 @@
 {
   "profile": {
     "name": "Oliver Leonardo Barra Acevedo",
-    "title": "Data Analyst | Junior Web Developer"
+    "title": "Full Stack JavaScript Web Developer & Data Analyst",
+    "resume": [
+      "Passionate about technology and constantly learning to improve my skills.",
+      "Specialized in creating robust solutions within the JavaScript ecosystem and optimizing processes through data analysis.",
+      "With work experience in the technology industry, in multidisciplinary teams, and in remote work."
+    ]
   },
   "contact": {
     "main": [
@@ -40,50 +45,151 @@
     ]
   },
   "professional_profile": {
-    "headline": "Data Analyst & Full-Stack Developer",
+    "headline": "Full-Stack JavaScript Web Developer",
     "roles": {
-      "data_analyst": {
-        "label": "Data Analyst",
-        "summary": "Specialist in process optimization and metric-driven decision making.",
-        "core_focus": [
-          "Workflow automation",
-          "KPI analysis and executive reporting",
-          "Relational database management"
-        ],
-        "preferences": {
-          "modality": "Remote / Hybrid",
-          "target_roles": [
-            "Data Analyst",
-            "Operations Analyst",
-            "Data Reporting Analyst",
-            "Automation Specialist",
-            "Business Intelligence Analyst"
-          ]
-        }
-      },
       "web_developer": {
         "label": "Fullstack Web Developer",
         "summary": "Creator of modern digital solutions focused on scalability and UX.",
         "core_focus": [
-          "Responsive and accessible interface design",
-          "SPA development with React",
-          "RESTful API construction with Node.js"
+          "Responsive and accessible interface design 💻",
+          "SPA development with React based Frameworks ⚛️",
+          "RESTful API construction with Node.js 🚀"
         ],
         "preferences": {
           "modality": "Remote / Hybrid",
-          "target_roles": [
-            "Junior Web Developer",
-            "Fullstack JavaScript Developer",
-            "React Developer",
-            "Node.js Developer",
-            "Frontend Engineer",
-            "Software Engineer"
+          "tecnologies": [
+            {
+              "name": "HTML5",
+              "icon": "https://img.icons8.com/?size=96&id=20909&format=png"
+            },
+            {
+              "name": "CSS3",
+              "icon": "https://img.icons8.com/?size=96&id=21278&format=png"
+            },
+            {
+              "name": "JavaScript",
+              "icon": "https://img.icons8.com/?size=96&id=108784&format=png"
+            },
+            {
+              "name": "React",
+              "icon": "https://img.icons8.com/?size=96&id=asWSSTBrDlTW&format=png"
+            },
+            {
+              "name": "Node.js",
+              "icon": "https://img.icons8.com/?size=96&id=hsPbhkOH4FMe&format=png"
+            },
+            {
+              "name": "Express",
+              "icon": "https://img.icons8.com/?size=96&id=SDVmtZ6VBGXt&format=png"
+            },
+            {
+              "name": "PostgreSQL",
+              "icon": "https://img.icons8.com/?size=96&id=38561&format=png"
+            },
+            {
+              "name": "Bootstrap 5",
+              "icon": "https://img.icons8.com/?size=96&id=EzPCiQUqWWEa&format=png"
+            },
+            {
+              "name": "Git",
+              "icon": "https://img.icons8.com/?size=96&id=20906&format=png"
+            },
+            {
+              "name": "GitHub",
+              "icon": "https://img.icons8.com/?size=96&id=3tC9EQumUAuq&format=png"
+            }
+          ]
+        }
+      },
+      "data_analyst": {
+        "label": "Data Analyst",
+        "summary": "Specialist in process optimization and metric-driven decision making.",
+        "core_focus": [
+          "Workflow automation 🤖",
+          "KPI analysis and executive reporting 📊",
+          "Relational database management 🗄️"
+        ],
+        "preferences": {
+          "modality": "Remote / Hybrid",
+          "tecnologies": [
+            {
+              "name": "Excel",
+              "icon": "https://img.icons8.com/?size=96&id=13654&format=png"
+            },
+            {
+              "name": "PowerBi",
+              "icon": "https://img.icons8.com/?size=96&id=Ny0t2MYrJ70p&format=png"
+            },
+            {
+              "name": "Google Sheets",
+              "icon": "https://img.icons8.com/?size=96&id=qrAVeBIrsjod&format=png"
+            },
+            {
+              "name": "Apps Script",
+              "icon": "https://img.icons8.com/?size=96&id=17949&format=png"
+            },
+            {
+              "name": "Python",
+              "icon": "https://img.icons8.com/?size=96&id=13441&format=png"
+            },
+            {
+              "name": "Pandas",
+              "icon": "https://img.icons8.com/?size=96&id=xSkewUSqtErH&format=png"
+            },
+            {
+              "name": "SQL",
+              "icon": "https://img.icons8.com/?size=96&id=J6KcaRLsTgpZ&format=png"
+            }
           ]
         }
       }
     }
   },
   "projects": [
+    {
+      "name": "Professional Portfolio",
+      "slug": "portafolio",
+      "type": "Frontend",
+      "category": ["web_developer"],
+      "stack": ["React", "Vite", "Framer Motion", "Bootstrap 5"],
+      "concepts": [
+        "Modular Web Design",
+        "UI/UX Components",
+        "Mobile-First Development"
+      ],
+      "description": "Creation of a professional and fully adaptive web interface focused on modularity and component reuse.",
+      "highlights": [
+        "Integration of Bootstrap components to accelerate development and ensure compatibility.",
+        "Optimization of visual resources and use of reactivity for language switching.",
+        "Implementation of custom animations using Framer Motion."
+      ],
+      "github": "https://github.com/Cuackzoide.github.io/",
+      "demo": "https://cuackzoide.github.io/",
+      "img": "/proyects/Portafolio.gif"
+    },
+    {
+      "name": "Mailinko company website",
+      "slug": "mailinko-web",
+      "type": "Frontend",
+      "category": ["web_developer"],
+      "stack": ["HTML5", "CSS3", "Bootstrap 5", "cPanel", "Apache server"],
+      "concepts": [
+        "Static website",
+        "Multiple page",
+        "Corporate image",
+        "Domain config",
+        "SSL Certificate"
+      ],
+      "description": "Mailinko company corporate website, dedicated to the metalworking and LPG sector.",
+      "highlights": [
+        "Replaced a heavy WordPress setup with a modern static site (HTML5/CSS3)",
+        "Clean and professional interface built with Bootstrap CDN for agile and responsive layouts",
+        "friction-free integration and hosting on traditional shared servers"
+      ],
+      "github": "https://github.com/Cuackzoide/mailinko",
+      "demo": "https://mailinko.cl",
+      "img": "/proyects/mailinko_web.gif"
+    },
     {
       "name": "Gourmet Go",
       "slug": "gourmet-go",
@@ -106,24 +212,25 @@
       ],
       "description": "Functional web application that transforms a static mockup into a real-time recipe search platform via external API consumption.",
       "highlights": [
-        "Asynchronous integration with TheMealDB external API.",
+        "Asynchronous integration with the external API TheMealDB.",
         "Search state management and dynamic results rendering using Bootstrap components.",
         "Implementation of fluid UX through advanced promise handling and dynamic filtering."
       ],
       "github": "https://github.com/Cuackzoide/EF_M4-API_gourmet_go",
-      "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/"
+      "demo": "https://cuackzoide.github.io/EF_M4-API_gourmet_go/",
+      "img": "/proyects/gourmet_go.gif"
     },
     {
-      "name": "Express & PostgreSQL Integration",
-      "slug": "express-pg",
-      "type": "Backend",
+      "name": "KanBan Pro",
+      "slug": "kanban-pro",
+      "type": "Application",
       "category": ["web_developer", "data_analyst"],
-      "stack": ["Node.js", "Express", "PostgreSQL", "dotenv"],
+      "stack": ["Node.js", "Express", "PostgreSQL", "dotenv", "hbs"],
       "concepts": [
-        "Database Connection Pooling",
-        "Environment Variables Management",
-        "Backend Architecture",
-        "SQL Querying",
+        "Database Management ORM",
+        "Environment Variable Management",
+        "MVC Architecture",
+        "Server Side Rendering",
         "Error Handling"
       ],
       "description": "Development of a robust server architecture for relational data management and persistence.",
@@ -132,8 +239,9 @@
         "Implementation of CRUD operations with asynchronous error handling.",
         "Structuring of routes and controllers to ensure backend scalability."
       ],
-      "github": "https://github.com/Cuackzoide/Express-pg",
-      "demo": "https://express-pg.onrender.com/api/cursos"
+      "github": "https://github.com/Cuackzoide/EF_M8-Kanban_Pro_Api",
+      "demo": null,
+      "img": "/proyects/KanbanPro.gif"
     },
     {
       "name": "Mastermind Digital",
@@ -148,23 +256,24 @@
         "Array Comparison",
         "Frontend-Backend Logic Transfer"
       ],
-      "description": "Digitalization of the classic board game, migrating core backend logic (Python) to an interactive web interface.",
+      "description": "Digitalization of the classic board game, migrating a central backend logic (Python) to an interactive web interface.",
       "highlights": [
         "Successful migration of comparison algorithms from Python to JavaScript.",
-        "Development of a UI focused on problem-solving logic.",
+        "Development of a user interface focused on problem-solving logic.",
         "Advanced DOM manipulation for immediate visual feedback."
       ],
       "github": "https://github.com/Cuackzoide/Mastermind",
-      "demo": "https://cuackzoide.github.io/Mastermind"
+      "demo": "https://cuackzoide.github.io/Mastermind",
+      "img": "/proyects/Mastermind.gif"
     },
     {
-      "name": "Connect-4",
+      "name": "Conecta-4",
       "slug": "conecta-4",
       "type": "Game / Logic",
       "category": ["web_developer"],
       "stack": ["JavaScript", "HTML5", "CSS3"],
       "concepts": [
-        "Win-condition Algorithms",
+        "Victory Condition Algorithms",
         "Matrix Logic (2D Arrays)",
         "Responsive Design",
         "Event Handling",
@@ -172,33 +281,13 @@
       ],
       "description": "Strategy game developed with web technologies to demonstrate programming logic.",
       "highlights": [
-        "Victory detection algorithms across horizontal, vertical, and diagonal axes.",
-        "Responsive design for cross-platform playability.",
-        "Clean code structuring based on pure functions."
+        "Victory detection algorithms in horizontal, vertical, and diagonal axes.",
+        "Responsive design for cross-platform gameplay.",
+        "Clean code structure based on pure functions."
       ],
       "github": "https://github.com/Cuackzoide/Conecta-4",
-      "demo": "https://cuackzoide.github.io/Conecta-4/"
-    },
-    {
-      "name": "Corporate Landing Page",
-      "slug": "landing-page",
-      "type": "Frontend",
-      "category": ["web_developer"],
-      "stack": ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
-      "concepts": [
-        "Responsive Web Design",
-        "Mobile-First Development",
-        "Semantic HTML",
-        "UI/UX Components"
-      ],
-      "description": "Creation of a professional, fully adaptive web interface focused on conversion and user experience.",
-      "highlights": [
-        "Bootstrap component integration to accelerate development and ensure compatibility.",
-        "Visual resource optimization and semantic HTML usage to improve technical SEO.",
-        "Implementation of custom interactivity via vanilla JavaScript."
-      ],
-      "github": "https://github.com/Cuackzoide/EF_M2-Landing_page",
-      "demo": "https://cuackzoide.github.io/EF_M2-Landing_page/"
+      "demo": "https://cuackzoide.github.io/Conecta-4/",
+      "img": "/proyects/Conecta4.gif"
     }
   ],
   "experience": [

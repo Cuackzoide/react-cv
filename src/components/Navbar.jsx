@@ -3,7 +3,7 @@ import duck from "../assets/img/duck_icon.jpg";
 import CV_ES from "/src/data/OLIVER_BARRA_CV_ES.pdf";
 import CV_EN from "/src/data/OLIVER_BARRA_CV_EN.pdf";
 
-export const Navbar = ({ lang, setLang, onToggleSidebar }) => {
+export const Navbar = ({ lang, setLang, onOpenSidebar }) => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -29,6 +29,21 @@ export const Navbar = ({ lang, setLang, onToggleSidebar }) => {
         </a>
 
         <div className="d-flex gap-2">
+          {/*Toggle de sidebar*/}
+          <button
+            onClick={onOpenSidebar}
+            className="btn btn-sm btn-dark"
+            type="button"
+          >
+            <span>+ Info ☰</span>
+          </button>
+          {/* Selector de Idioma */}
+          <button
+            className="btn btn-sm btn-dark"
+            onClick={() => setLang(lang === "es" ? "en" : "es")}
+          >
+            {lang === "es" ? "English" : "Español"}
+          </button>
           <a
             className="btn btn-sm btn-dark"
             href={lang === "es" ? CV_ES : CV_EN}
@@ -38,29 +53,10 @@ export const Navbar = ({ lang, setLang, onToggleSidebar }) => {
                 : "OLIVER_BARRA_CV_EN.pdf"
             }
           >
-            <span className="fw-bold">
-              {lang === "es" ? "Descargar CV" : "Download CV"}
-            </span>
+            <span>{lang === "es" ? "Descargar CV" : "Download CV"}</span>
           </a>
-
-          {/* Selector de Idioma */}
-          <button
-            className="btn btn-sm btn-dark"
-            onClick={() => setLang(lang === "es" ? "en" : "es")}
-          >
-            {lang === "es" ? "EN" : "ES"}
-          </button>
-          {/* Mobile Sidebar Toggle */}
-          <button
-            className="btn btn-sm btn-outline-secondary d-lg-none"
-            onClick={onToggleSidebar}
-            aria-label="Toggle Sidebar"
-          >
-            ☰
-          </button>
         </div>
       </div>
-
       {/* Scroll Progress Bar */}
       <motion.div
         className="bg-primary"
